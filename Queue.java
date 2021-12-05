@@ -35,8 +35,9 @@ class Queue {
     }
     
     // Return whether the queue is empty.
+    //Time Complexity: O(1), Space Complexity: 0
     public boolean empty() {
-
+        return stack1.isEmpty() && stack2.isEmpty();
     }
 
     // Return the number of elements in queue.
